@@ -50,16 +50,6 @@ const Page = () => {
   const location = useLocation();
   const [customUrl, setCustomUrl] = useState<string>("");
 
-  console.log(location)
-
-  // Example of working hash router url
-  // http://localhost:3000/#/ngv:1f9a4:37bvs4:1wcd:a4:12fyld:14:3d:ms4
-  // Using above the pathname is /ngv...
-  // TODO this needs to be moved from its current origin to the bytkin.github.io one
-  // TODO this needs to handle urls of the kind
-  // https://bytekink.github.io/scene-negotiation/#/1f9a4:37bvs4:1wcd:a4:12fyld:14:3d:ms4
-  // (Make sure we are counting slashes correctly)
-
   const [impactState, setImpactState] = useState<FetishState>(
     setDefaultState(impactPlayList)
   );
