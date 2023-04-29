@@ -1,9 +1,9 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { HashRouter, RouterProvider, createHashRouter } from "react-router-dom";
 import Page from "./Page";
 import "./styles/custom.scss";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/*",
     element: <Page />,
@@ -11,7 +11,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  );
 }
 
 export default App;
