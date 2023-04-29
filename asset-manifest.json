@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scene-negotiation/static/css/main.18fe6d8c.css",
-    "main.js": "/scene-negotiation/static/js/main.c07dbf0d.js",
+    "main.js": "/scene-negotiation/static/js/main.f83b35d2.js",
     "index.html": "/scene-negotiation/index.html",
     "main.18fe6d8c.css.map": "/scene-negotiation/static/css/main.18fe6d8c.css.map",
-    "main.c07dbf0d.js.map": "/scene-negotiation/static/js/main.c07dbf0d.js.map"
+    "main.f83b35d2.js.map": "/scene-negotiation/static/js/main.f83b35d2.js.map"
   },
   "entrypoints": [
     "static/css/main.18fe6d8c.css",
-    "static/js/main.c07dbf0d.js"
+    "static/js/main.f83b35d2.js"
   ]
 }
